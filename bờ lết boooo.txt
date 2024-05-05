@@ -1,0 +1,14 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Đức Trí💫")
+
+local Bladeball = PhantomForcesWindow:NewSection("Subcribe YT @ductrihackdragonsea")
+
+Bladeball:CreateToggle("Auto Parry God", function()loadstring(game:HttpGet(("https://raw.githubusercontent.com/datshort1/DatModProVjp/main/AutoParry")))()
+end)
+
+Bladeball:CreateToggle("Auto Spam", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Code4Zaaa/X7Project/main/Game/AutoParryOnly"))()
+end)
+
+Bladeball:CreateToggle("Auto Clash", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/datshort1/DatModProVjp/main/AutoClash"))()
+end)
